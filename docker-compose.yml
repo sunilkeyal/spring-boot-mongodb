@@ -1,0 +1,15 @@
+version: '3'
+
+networks:
+  mynetwork:
+    driver: bridge
+
+services:
+  mongo:
+    container_name: mongo
+    image: docker.repo1.uhc.com/mongodb:latest
+    ports:
+      - 27017:27017
+    networks:
+      - mynetwork
+
