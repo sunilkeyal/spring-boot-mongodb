@@ -7,7 +7,7 @@ networks:
 services:
   mongo:
     container_name: mongo
-    image: docker.repo1.uhc.com/mongodb:latest
+    image: mongo:4.4.17
     ports:
       - 27017:27017
     networks:
