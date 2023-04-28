@@ -1,4 +1,4 @@
-# demo-mongo
+# spring-boot-mongodb
 
 A sample spring boot application using spring-data-mongodb
 
